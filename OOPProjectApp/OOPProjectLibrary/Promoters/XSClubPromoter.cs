@@ -11,12 +11,12 @@ namespace OOPProjectLibrary.Promoters
 
         protected override string ShareWithinInnerCircle()
         {
-            return $"{FirstName} {LastName} is promoting via the inner circle.";
+            return $"{FirstName} {LastName} is promoting in the inner circle.";
         }
 
         protected override string UsePaidAds()
         {
-            return $"{FirstName} {LastName} is promoting via paid ads.";
+            return $"{FirstName} {LastName} is promoting with paid ads.";
         }
 
         public string VloggingDetails()
